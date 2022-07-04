@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFTSCH</title>
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="icon" href="./assets/images/sitelogo.png">
+</head>
+<body>
+    <div class="header__wrapper">
+        <header class='header content'>
+            <span class="header__logo fw-900i">NFTSCH</span>
+            <div class='burger__menu burger__menu__closed'>
+                <nav class='header__nav'>
+                    <li onclick='openBurgerMenu()' class="nav__item"><a href="#main">Главная</a></li>
+                    <li onclick='openBurgerMenu()' class="nav__item"><a href="#about">О курсе</a></li>
+                    <li onclick='openBurgerMenu()' class="nav__item"><a href="#rates">Тарифы</a></li>
+                    <li onclick='openBurgerMenu()' class="nav__item"><a href="#reviews">Отзывы</a></li>
+                    <li onclick='openBurgerMenu()' class="nav__item"><a href="#program">Программа</a></li>
+                </nav>
+                <a onclick='openBurgerMenu()' href="#contacts" class="header__button">Контакты</a>
+            </div>
+            <div class="burger" id="burger">
+                <div class="burger__line1"></div>
+                <div class="burger__line2"></div>
+                <div class="burger__line3"></div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <section class="content section1" id="main">
+            <div class="section1__left">
+                <h1 class="h__header">Обучись<br>Заработку<br>На NFT<img src="./assets/images/waves.png" alt="Волны" class="wave wave1"></h1>
+                <p class="section1__paragraph paragraph">Пройди курс и начни зарабатывать<br>100,000+ руб в месяц с помощью NFT</p>
+                <div class="section1__button__wrapper">
+                    <a href="#rates" class="section1__button">Начать обучение</a>
+                    <a href='#about' class="section1__more orange__color paragraph"><img src="./assets/images/arrow.png" alt="Перейти">Подробнее</a>
+                </div>
+            </div>
+            <img src="./assets/images/section1.png" alt="nft" class="section1__image">
+        </section>
+        <section class="content section2" id="about">
+            <div class="section2__left">
+                <img src="./assets/images/section2.png" alt="nft" class="section2__image">
+            </div>
+            <div class="section2__right">
+                <h2 class="h__header">О курсе</h2>
+                <p class="paragraph section2__paragraph">В последнее время NFT индустрия стремительно набирает обороты. Мы видим перспективу в данной отрасли и помогаем людям влиться в эту сферу. Успейте запрыгнуть в последний вагон и начать зарабатывать на NFT!</p>
+                <div class="section2__statistics">
+                    <div class='flex'>
+                        <div class="section2__statistics__item">
+                            <span class="section2__statistics__item__number orange__color">300+</span>
+                            <span class="paragraph">Довольных учеников</span>
+                        </div>
+                        <div class="section2__statistics__item">
+                            <span class="section2__statistics__item__number orange__color">26K+</span>
+                            <span class="paragraph">Подписчиков школы</span>
+                        </div>
+                    </div>
+                    <div class='flex'>
+                        <div class="section2__statistics__item">
+                            <span class="section2__statistics__item__number orange__color">400+</span>
+                            <span class="paragraph">Положительных отзывов</span>
+                        </div>
+                        <div class="section2__statistics__item">
+                            <span class="section2__statistics__item__number orange__color">20+</span>
+                            <span class="paragraph">Успешных продаж</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content section3">
+            <div class="section3__left">
+                <h2 class="h__header">Курс<br>подходит</h2>
+                <div class="section3__people">
+                    <div class="section3__person">
+                        <img src="./assets/images/person1.png" alt="Подросток" class="section3__person__image">
+                        <h3 class="l__header">Подросткам</h3>
+                    </div>
+                    <div class="section3__person">
+                        <img src="./assets/images/person2.png" alt="Предприниматель" class="section3__person__image">
+                        <h3 class="l__header">Предпринимателям</h3>
+                    </div>
+                    <div class="section3__person">
+                        <img src="./assets/images/person3.png" alt="Дизайнер" class="section3__person__image">
+                        <h3 class="l__header">Дизайнерам</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="section3__right">
+                <img src="./assets/images/section3.png" alt="nft" class="section3__image">
+            </div>
+        </section>
+        <section class="content section4">
+            <h2 class="h__header">После курса:</h2>
+            <div class="sec4__img__left">
+                <img src="./assets/images/sec41.png" alt="nft">
+                <div class="sec4__img__left__text">
+                    <h3 class="l__header">Вы станете разбираться в сфере NFT на профессиональном уровне</h3>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a massa laoreet est elementum feugiat. Mauris vulputate enim eget dui vestibulum efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+            </div>
+            <div class="sec4__img__right">
+                <div class="sec4__img__right__text">
+                    <h3 class="l__header">Получите возможность зарабатывать от 100 тыс<br> рублей в месяц</h3>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a massa laoreet est elementum feugiat. Mauris vulputate enim eget dui vestibulum efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <img src="./assets/images/sec42.png" alt="nft">
+            </div>
+            <div class="sec4__img__left">
+                <img src="./assets/images/sec43.png" alt="nft">
+                <div class="sec4__img__left__text">
+                    <h3 class="l__header">Сможете совмещать деятельность в NFT<br> индустрии с основной работой </h3>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a massa laoreet est elementum feugiat. Mauris vulputate enim eget dui vestibulum efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+            </div>
+        </section>
+        <section class="content section5" id='program'>
+            <h2 class="h__header">Программа курса</h2>
+            <div class="section5__wrapper">
+                <div class="section5__left">
+                    <h3 class="l__header">Модуль №1: “Блокчейны и криптовалюты”</h3>
+                    <p class="paragraph">Урок №1: “Что такое блокчейн”</p>
+                    <p class="paragraph">Урок №2: “Важные свойства блокчейна”</p>
+                    <p class="paragraph">Урок №3: “Поколение блокчейнов”</p>
+                    <p class="paragraph">Урок №4: “Как устроены криптовалюты”</p>
+                    <p class="paragraph">Урок №5: “Смарт-контракты”</p>
+                    <p class="paragraph">Урок №6: “Атомарные свопы”</p>
+                    <h3 class="l__header">Модуль №2: “Заработок на NFT”</h3>
+                    <p class="paragraph">Урок №1: “NFT-маркетплейсы”</p>
+                    <p class="paragraph">Урок №2: “Как создать свой NFT”</p>
+                    <p class="paragraph">Урок №3: “Алгоритм покупки NFT в разных сетях”</p>
+                    <p class="paragraph">Урок №4: “Принципы торговли NFT”</p>
+                    <p class="paragraph">Урок №5: “NFT Giveaway”</p>
+                    <p class="paragraph">Урок №6: “NFT Airdrop”</p>
+                </div>
+                <div class="section5__right">
+                    <img src="./assets/images/sec5.png" alt="nft" class="section5__img">
+                </div>
+            </div>
+        </section>
+        <div class="section6__wrapper">
+            <section class='content section6' id="rates">
+                <h2 class="h__header">Тарифы</h2>
+                <div class="sec6__tarifs">
+                    <div class="tarif__card">
+                        <img src="./assets/images/tr1.png" alt="базовый тариф" class="tarif__img">
+                        <h3 class="l__header">Базовый</h3>
+                        <div class='tarif__text'>
+                            <span class="paragraph">40+ уроков и лекций</span>
+                            <span class="paragraph">26 домаших заданий</span>
+                            <span class="paragraph">Чат с участниками курса</span>
+                            <span class="paragraph">Сертификат</span>
+                            <span class="paragraph">Доступ ко всем материалам</span>
+                        </div>
+                        <div class="tarif__bottom">
+                            <span class="tarif__price">5790<span class="tarif__price__r">₽</span></span>
+                            <a href="#" class="tarif__button">Оформить</a>
+                        </div>
+                    </div>
+                    <div class=" tarif__card tarif__card__premium">
+                        <img src="./assets/images/tr2.png" alt="премиум тариф" class="tarif__img">
+                        <h3 class="l__header">Премиум</h3>
+                        <div class='tarif__text'>
+                            <span class="paragraph paragraph__white">40+ уроков и лекций</span>
+                            <span class="paragraph paragraph__white">26 домаших заданий</span>
+                            <span class="paragraph paragraph__white">Чат с участниками курса</span>
+                            <span class="paragraph paragraph__white">Сертификат</span>
+                            <span class="paragraph paragraph__white">Доступ ко всем материалам</span>
+                            <span class="paragraph paragraph__white">Бесплатная консультация</span>
+                        </div>
+                        <div class="tarif__bottom">
+                            <span class="tarif__price">9770<span class="tarif__price__r">₽</span></span>
+                            <a href="#" class="tarif__button">Оформить</a>
+                        </div>
+                    </div>
+                    <div class="tarif__card">
+                        <img src="./assets/images/tr3.png" alt="личный тариф" class="tarif__img">
+                        <h3 class="l__header">Личный</h3>
+                        <div class='tarif__text'>
+                            <span class="paragraph">40+ уроков и лекций</span>
+                            <span class="paragraph">26 домаших заданий</span>
+                            <span class="paragraph">Чат с участниками курса</span>
+                            <span class="paragraph">Сертификат</span>
+                            <span class="paragraph">Доступ ко всем материалам</span>
+                            <span class="paragraph">Бесплатная консультация</span>
+                            <span class="paragraph">Раскрутка вашего проекта</span>
+                        </div>
+                        <div class="tarif__bottom">
+                            <span class="tarif__price">12870<span class="tarif__price__r">₽</span></span>
+                            <a href="#" class="tarif__button">Оформить</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="content section7">
+            <h2 class="h__header">Об Авторе Курса</h2>
+            <div class="section7__wrapper">
+                <div class="section7__left">
+                    <div class="section7__img_w">
+                        <img src="./assets/images/sec7.png" alt="Тайлер Дёрден" class='section7__img'>
+                    </div>
+                </div>
+                <div class="section7__right">
+                    <h3 class="l__header">Марк Давыдов</h3>
+                    <p class="paragraph">Он занимается NFT с 2018 года, и полностью себя с помощью этого обеспечивает. Марк знает все нюансы этого дела и сможет обучить вас. Будь как Марк.</p>
+                </div>
+            </div>
+        </section>
+        <div class="section8__background">
+            <section class="content section8" id='reviews'>
+                <h2 class="h__header">Отзывы</h2>
+                <div class="section8__buttons">
+                    <svg class="svg-icon" viewBox="0 0 20 20" id='leftButton'>
+                        <path fill="currentColor" d="M18.271,9.212H3.615l4.184-4.184c0.306-0.306,0.306-0.801,0-1.107c-0.306-0.306-0.801-0.306-1.107,0
+                        L1.21,9.403C1.194,9.417,1.174,9.421,1.158,9.437c-0.181,0.181-0.242,0.425-0.209,0.66c0.005,0.038,0.012,0.071,0.022,0.109
+                        c0.028,0.098,0.075,0.188,0.142,0.271c0.021,0.026,0.021,0.061,0.045,0.085c0.015,0.016,0.034,0.02,0.05,0.033l5.484,5.483
+                        c0.306,0.307,0.801,0.307,1.107,0c0.306-0.305,0.306-0.801,0-1.105l-4.184-4.185h14.656c0.436,0,0.788-0.353,0.788-0.788
+                        S18.707,9.212,18.271,9.212z"></path>
+                    </svg>
+                    <svg class="svg-icon" viewBox="0 0 20 20" id='rightButton'>
+                        <path fill="currentColor" d="M1.729,9.212h14.656l-4.184-4.184c-0.307-0.306-0.307-0.801,0-1.107c0.305-0.306,0.801-0.306,1.106,0
+                        l5.481,5.482c0.018,0.014,0.037,0.019,0.053,0.034c0.181,0.181,0.242,0.425,0.209,0.66c-0.004,0.038-0.012,0.071-0.021,0.109
+                        c-0.028,0.098-0.075,0.188-0.143,0.271c-0.021,0.026-0.021,0.061-0.045,0.085c-0.015,0.016-0.034,0.02-0.051,0.033l-5.483,5.483
+                        c-0.306,0.307-0.802,0.307-1.106,0c-0.307-0.305-0.307-0.801,0-1.105l4.184-4.185H1.729c-0.436,0-0.788-0.353-0.788-0.788
+                        S1.293,9.212,1.729,9.212z"></path>
+                    </svg>
+                </div>
+                <div class="section8__reviews" id='reviews__wrapper'>
+                    <div class="section8__review">
+                        <div class="review__body">
+                            <p class="paragraph">Прошёл курс, результатом доволен, наконец-то смог заработать на ноутбук👍👍👍</p>
+                        </div>
+                        <div class="review__person">
+                            <img src="./assets/images/sec81.png" alt="Большакова Алёна" class="person__photo">
+                            <span class="paragraph paragraph__white">Александр Прокофьев</span>
+                        </div>
+                    </div>
+                    <div class="section8__review">
+                        <div class="review__body">
+                            <p class="paragraph">Благодаря nft school стала зарабатывать больше, чем на основной работе</p>
+                        </div>
+                        <div class="review__person">
+                            <img src="./assets/images/sec83.png" alt="Марк Цукерберг" class="person__photo">
+                            <span class="paragraph paragraph__white">Ольга Васильева</span>
+                        </div>
+                    </div>
+                    <div class="section8__review">
+                        <div class="review__body">
+                            <p class="paragraph">Достаточно быстро разобрался в теме и получается очень неплохо</p>
+                        </div>
+                        <div class="review__person">
+                            <img src="./assets/images/sec82.png" alt="Волкова Эльмира" class="person__photo">
+                            <span class="paragraph paragraph__white">Сергей Киров</span>
+                        </div>
+                    </div>
+                    <div class="section8__review">
+                        <div class="review__body">
+                            <p class="paragraph">В целом неплохая информация. Несколько уроков заинтриговали и заставили подумать, даже делал паузу.</p>
+                        </div>
+                        <div class="review__person">
+                            <img src="./assets/images/sec83.png" alt="Колганов Ефим" class="person__photo">
+                            <span class="paragraph paragraph__white">Колганов Ефим</span>
+                        </div>
+                    </div>
+                    <div class="section8__review">
+                        <div class="review__body">
+                            <p class="paragraph">Спасибо, все четко и по делу, я новичок, и мне очень не хватает такой подачи информации, а утонуть в неструктурированной - это мгновенно получается у новичков)</p>
+                        </div>
+                        <div class="review__person">
+                            <img src="./assets/images/sec82.png" alt="Галкин Матвей" class="person__photo">
+                            <span class="paragraph paragraph__white">Галкин Матвей</span>
+                        </div>
+                    </div>
+                    <div class="section8__review">
+                        <div class="review__body">
+                            <p class="paragraph">Вот реально сколько видосов не смотрел, это самый полезный курс что я видел, спасибо ты красавчик</p>
+                        </div>
+                        <div class="review__person">
+                            <img src="./assets/images/sec81.png" alt="Новиков Мартин" class="person__photo">
+                            <span class="paragraph paragraph__white">Новиков Мартин</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class='content section9' id="contacts">
+            <div class="section9__left">
+                <h2 class="h__header">Контакты</h2>
+                <h3 class="l__header">Остались вопросы? Ответим!</h3>
+                <p class="paragraph">Если у Вас остаются вопросы, можете связаться с нашем менеджером, по следующим контактам:</p>
+                <div class="section9__contact">
+                    <img src="./assets/images/inst.png" alt="инстаграм" class="sec9__contact__image">
+                    <span class="l__header">@nft_school</span>
+                </div>
+                <div class="section9__contact">
+                    <img src="./assets/images/phone.png" alt="телефон" class="sec9__contact__image">
+                    <span class="l__header">+7-999-999-99-99</span>
+                </div>
+            </div>
+            <div class="section9__right">
+                <img src="./assets/images/sec9.png" alt="nft" class="section9__image">
+            </div>
+        </section>
+    </main>
+    <div class="footer__wrapper">
+        <footer class="content footer">
+            <div class="footer__upper">
+                <span class="header__logo fw-900i">NFTSCH</span>
+                <div class="footer__menus__wrapper">
+                    <div class="footer__menu">
+                        <span class="paragraph">Главная</span>
+                        <span class="paragraph paragraph__gray">Начать</span>
+                        <span class="paragraph paragraph__gray">Подробнее</span>
+                    </div>
+                    <div class="footer__menu">
+                        <span class="paragraph">О курсе</span>
+                        <span class="paragraph paragraph__gray">О курсе</span>
+                        <span class="paragraph paragraph__gray">Плюсы</span>
+                    </div>
+                    <div class="footer__menu">
+                        <span class="paragraph">Тарифы</span>
+                        <span class="paragraph paragraph__gray">Базовый</span>
+                        <span class="paragraph paragraph__gray">Премиум</span>
+                        <span class="paragraph paragraph__gray">Личный</span>
+                    </div>
+                    <div class="footer__menu">
+                        <span class="paragraph">Программа</span>
+                        <span class="paragraph paragraph__gray">Модуль №1</span>
+                        <span class="paragraph paragraph__gray">Модуль №2</span>
+                    </div>
+                    <div class="footer__menu">
+                        <span class="paragraph">Контакты</span>
+                        <span class="paragraph paragraph__gray">Инстаграм</span>
+                        <span class="paragraph paragraph__gray">Телефон</span>
+                    </div>
+                </div>
+                <svg id='up-button' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg-icon inactive" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+                  </svg>
+            </div>
+            <div class="footer__lower">
+                <span class="paragraph orange__color">+7-999-999-99-99</span>
+                <img src="./assets/images/inst.png" alt="инстаграм" class="footer__inst">
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
